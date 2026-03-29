@@ -8,6 +8,17 @@ export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const [copied, setCopied] = useState(false);
+
+  const copyEmail = async () => {
+    try {
+      await navigator.clipboard.writeText("yancy@crocusiris.com");
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      // ignore
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -123,20 +134,31 @@ export function Navigation() {
               role="menu"
             >
               <div className="bg-[#1a1a1a]/95 backdrop-blur-md rounded-lg overflow-hidden min-w-[200px] border border-white/10 shadow-xl">
-                {contactDropdown.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    target={item.external ? "_blank" : undefined}
-                    rel={item.external ? "noopener noreferrer" : undefined}
-                    className="flex items-center gap-3 w-full px-4 py-3 text-sm text-white/80 hover:bg-amber-500/20 hover:text-amber-400 transition-colors"
-                    role="menuitem"
-                  >
-                    {item.icon === "Mail" && <Mail className="w-4 h-4" />}
-                    {item.icon === "Github" && <Github className="w-4 h-4" />}
-                    {item.name}
-                  </a>
-                ))}
+                {contactDropdown.map((item) =>
+                  item.icon === "Mail" ? (
+                    <button
+                      key={item.name}
+                      onClick={copyEmail}
+                      className="flex items-center gap-3 w-full px-4 py-3 text-sm text-white/80 hover:bg-amber-500/20 hover:text-amber-400 transition-colors"
+                      role="menuitem"
+                    >
+                      <Mail className="w-4 h-4" />
+                      {copied ? "已复制" : item.name}
+                    </button>
+                  ) : (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      target={item.external ? "_blank" : undefined}
+                      rel={item.external ? "noopener noreferrer" : undefined}
+                      className="flex items-center gap-3 w-full px-4 py-3 text-sm text-white/80 hover:bg-amber-500/20 hover:text-amber-400 transition-colors"
+                      role="menuitem"
+                    >
+                      {item.icon === "Github" && <Github className="w-4 h-4" />}
+                      {item.name}
+                    </a>
+                  )
+                )}
               </div>
             </div>
           </div>
@@ -182,13 +204,13 @@ export function Navigation() {
             style={{ animationDelay: "0.4s" }}
           >
             <div className="text-sm text-white/50 mb-3">联系方式</div>
-            <a
-              href="mailto:yancy@crocusiris.com"
+            <button
+              onClick={copyEmail}
               className="flex items-center gap-3 py-2 text-white/80 hover:text-amber-400"
             >
               <Mail className="w-5 h-5" />
-              yancy@crocusiris.com
-            </a>
+              {copied ? "已复制" : "yancy@crocusiris.com"}
+            </button>
             <a
               href="https://github.com/yancy-coder"
               target="_blank"

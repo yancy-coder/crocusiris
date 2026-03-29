@@ -14,6 +14,17 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 export function Footer() {
   const [newsletterEmail, setNewsletterEmail] = useState("");
   const [newsletterStatus, setNewsletterStatus] = useState<"idle" | "success" | "error">("idle");
+  const [copied, setCopied] = useState(false);
+
+  const copyEmail = async () => {
+    try {
+      await navigator.clipboard.writeText("yancy@crocusiris.com");
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      // ignore
+    }
+  };
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -71,6 +82,18 @@ export function Footer() {
                 <div className="flex gap-3">
                   {footerConfig.socialLinks.map((social) => {
                     const IconComponent = iconMap[social.icon];
+                    if (social.icon === "Mail") {
+                      return (
+                        <button
+                          key={social.label}
+                          onClick={copyEmail}
+                          aria-label={copied ? "已复制" : social.label}
+                          className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/60 hover:bg-amber-500 hover:border-amber-500 hover:text-white transition-all duration-300"
+                        >
+                          {IconComponent && <IconComponent className="w-4 h-4" />}
+                        </button>
+                      );
+                    }
                     return (
                       <a
                         key={social.label}
