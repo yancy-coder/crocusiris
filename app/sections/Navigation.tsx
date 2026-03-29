@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X, ChevronDown, Mail, Github } from "lucide-react";
 import { navigationConfig } from "../config";
-import { ThemeToggle } from "../components/ThemeToggle";
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -92,11 +91,6 @@ export function Navigation() {
             </button>
           ))}
 
-          {/* Theme Toggle */}
-          <div className="pl-4 border-l border-white/20">
-            <ThemeToggle />
-          </div>
-
           {/* Contact Dropdown */}
           <div
             className="relative"
@@ -181,12 +175,6 @@ export function Navigation() {
               {link.name}
             </button>
           ))}
-
-          {/* Mobile Theme Toggle */}
-          <div className="flex items-center justify-between py-4 animate-fade-up" style={{ animationDelay: "0.5s" }}>
-            <span className="text-white/80">主题</span>
-            <ThemeToggle />
-          </div>
 
           {/* Mobile Contact Links */}
           <div
