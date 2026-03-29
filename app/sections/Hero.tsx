@@ -1,8 +1,18 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { ArrowDown, Sparkles, Code, Coffee, BookOpen } from "lucide-react";
 import { heroConfig } from "../config";
+
+// Deterministic pseudo-random generator to avoid SSR/CSR hydration mismatch
+function mulberry32(seed: number) {
+  return function () {
+    let t = (seed += 0x6d2b79f5);
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
 
 export function Hero({ isReady }: { isReady: boolean }) {
   const [phase, setPhase] = useState(0);
@@ -20,6 +30,16 @@ export function Hero({ isReady }: { isReady: boolean }) {
       clearTimeout(t4);
     };
   }, [isReady]);
+
+  const particles = useMemo(() => {
+    const rand = mulberry32(42);
+    return Array.from({ length: 20 }, () => ({
+      left: `${rand() * 100}%`,
+      top: `${rand() * 100}%`,
+      animationDelay: `${rand() * 5}s`,
+      animationDuration: `${3 + rand() * 4}s`,
+    }));
+  }, []);
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
@@ -49,15 +69,15 @@ export function Hero({ isReady }: { isReady: boolean }) {
 
       {/* Animated particles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(20)].map((_, i) => (
+        {particles.map((p, i) => (
           <div
             key={i}
             className="absolute w-1 h-1 bg-amber-400/30 rounded-full animate-float"
             style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 5}s`,
-              animationDuration: `${3 + Math.random() * 4}s`,
+              left: p.left,
+              top: p.top,
+              animationDelay: p.animationDelay,
+              animationDuration: p.animationDuration,
             }}
           />
         ))}
