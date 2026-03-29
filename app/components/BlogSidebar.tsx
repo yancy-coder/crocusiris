@@ -52,7 +52,7 @@ export function BlogSidebar() {
       <div className="bg-white/5 backdrop-blur-md rounded-2xl border border-white/10 p-5">
         <div className="flex items-center gap-4 mb-4">
           <img
-            src="/images/logo.png"
+            src="/favicon.ico"
             alt="Yancy"
             className="w-14 h-14 rounded-full object-cover border-2 border-amber-400/50"
           />

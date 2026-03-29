@@ -30,7 +30,7 @@ export function Preloader({ onComplete }: { onComplete: () => void }) {
       {/* Logo Icon */}
       <div className="preloader-text mb-6">
         <img
-          src="/images/logo.png"
+          src="/favicon.ico"
           alt="Logo"
           className="w-16 h-16 rounded-full object-cover animate-pulse"
         />

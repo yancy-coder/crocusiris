@@ -45,7 +45,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
               <img
-                src="/images/logo.png"
+                src="/favicon.ico"
                 alt="Logo"
                 className="w-10 h-10 rounded-full object-cover"
               />

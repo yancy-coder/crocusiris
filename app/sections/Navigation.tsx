@@ -64,7 +64,7 @@ export function Navigation() {
           aria-label={navigationConfig.brandName}
         >
           <img
-            src="/images/logo.png"
+            src="/favicon.ico"
             alt="Logo"
             className="w-10 h-10 rounded-full object-cover transition-transform duration-300 group-hover:scale-110"
           />
