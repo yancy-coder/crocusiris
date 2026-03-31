@@ -1,0 +1,109 @@
+[     112ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[     402ms] [LOG] [Fast Refresh] done in 391ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[     502ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/blog-default.jpg:0
+[     519ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[     538ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   24590ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   28108ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/blog/obsidian-features?_rsc=lquux:0
+[   28144ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/blog/obsidian-features:0
+[   28249ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[   28313ms] Error: ./app/blog/[id]/page.tsx
+'styled-jsx' cannot be imported from a Server Component module
+It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default.
+
+
+    at Object.getCompilationErrors (file://D:\vibe\crocusiris\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1189:59)
+    at DevBundlerService.getCompilationError (file://D:\vibe\crocusiris\node_modules\next\dist\server\lib\dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file://D:\vibe\crocusiris\node_modules\next\dist\server\dev\next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file://D:\vibe\crocusiris\node_modules\next\dist\server\dev\next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file://D:\vibe\crocusiris\node_modules\next\dist\server\base-server.js:1745:26)
+[   28314ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   28318ms] [ERROR] ./app/blog/[id]/page.tsx
+'styled-jsx' cannot be imported from a Server Component module
+It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   28350ms] [ERROR] ./app/blog/[id]/page.tsx
+'styled-jsx' cannot be imported from a Server Component module
+It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   28420ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   34128ms] [ERROR] ./app/blog/[id]/page.tsx
+'styled-jsx' cannot be imported from a Server Component module
+It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   34195ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   34299ms] [ERROR] ./app/blog/[id]/page.tsx
+'styled-jsx' cannot be imported from a Server Component module
+It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   34364ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   34519ms] [ERROR] ./app/blog/[id]/page.tsx
+'styled-jsx' cannot be imported from a Server Component module
+It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   34592ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   43100ms] [ERROR] ./app/blog/[id]/page.tsx
+'styled-jsx' cannot be imported from a Server Component module
+It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   43164ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   49318ms] [ERROR] ./app/blog/[id]/page.tsx
+'styled-jsx' cannot be imported from a Server Component module
+It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   49381ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   57172ms] [ERROR] ./app/blog/[id]/page.tsx
+'styled-jsx' cannot be imported from a Server Component module
+It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   57237ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   58186ms] [ERROR] ./app/blog/[id]/page.tsx
+'styled-jsx' cannot be imported from a Server Component module
+It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   58251ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   64344ms] [ERROR] ./app/blog/[id]/page.tsx
+'styled-jsx' cannot be imported from a Server Component module
+It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   64406ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   73198ms] [ERROR] ./app/blog/[id]/page.tsx
+'styled-jsx' cannot be imported from a Server Component module
+It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   73263ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   79355ms] [ERROR] ./app/blog/[id]/page.tsx
+'styled-jsx' cannot be imported from a Server Component module
+It only works in a Client Component but none of its parents are marked with 'use client', so they're Server Components by default. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   79418ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   85206ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   85214ms] [ERROR] ./app/blog/[id]/page.tsx:8:1
+Module not found: Can't resolve './wiki-links.css'
+   6 | import { Clock, Tag, Calendar, ArrowLeft, Link2 } from "lucide-react";
+   7 | import Link from "next/link";
+>  8 | import "./wiki-links.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | // 生成静态参数（SSG）
+  11 | export async function generateStaticParams() {
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   88275ms] [ERROR] ./app/blog/[id]/page.tsx:8:1
+Module not found: Can't resolve './wiki-links.css'
+   6 | import { Clock, Tag, Calendar, ArrowLeft, Link2 } from "lucide-react";
+   7 | import Link from "next/link";
+>  8 | import "./wiki-links.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | // 生成静态参数（SSG）
+  11 | export async function generateStaticParams() {
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   88338ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   94371ms] [ERROR] ./app/blog/[id]/page.tsx:8:1
+Module not found: Can't resolve './wiki-links.css'
+   6 | import { Clock, Tag, Calendar, ArrowLeft, Link2 } from "lucide-react";
+   7 | import Link from "next/link";
+>  8 | import "./wiki-links.css";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | // 生成静态参数（SSG）
+  11 | export async function generateStaticParams() {
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   94434ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   96090ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   96323ms] [LOG] [Fast Refresh] done in 170ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   97294ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   97313ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   97429ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   97432ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431

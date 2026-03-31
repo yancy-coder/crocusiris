@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Mail, Github, ArrowUp, CheckCircle } from "lucide-react";
+import { Mail, Github, ArrowUp, CheckCircle, Rss } from "lucide-react";
 import { footerConfig } from "../config";
 
 // Icon lookup map for dynamic icon resolution from config strings
@@ -77,39 +77,48 @@ export function Footer() {
               </p>
             )}
             {/* Social Links */}
-            {footerConfig.socialLinks.length > 0 && (
-              <nav aria-label="Social media links">
-                <div className="flex gap-3">
-                  {footerConfig.socialLinks.map((social) => {
-                    const IconComponent = iconMap[social.icon];
-                    if (social.icon === "Mail") {
-                      return (
-                        <button
-                          key={social.label}
-                          onClick={copyEmail}
-                          aria-label={copied ? "已复制" : social.label}
-                          className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/60 hover:bg-amber-500 hover:border-amber-500 hover:text-white transition-all duration-300"
-                        >
-                          {IconComponent && <IconComponent className="w-4 h-4" />}
-                        </button>
-                      );
-                    }
+            <nav aria-label="Social media links">
+              <div className="flex gap-3">
+                {footerConfig.socialLinks.map((social) => {
+                  const IconComponent = iconMap[social.icon];
+                  if (social.icon === "Mail") {
                     return (
-                      <a
+                      <button
                         key={social.label}
-                        href={social.href}
-                        target={social.href.startsWith("http") ? "_blank" : undefined}
-                        rel={social.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                        aria-label={social.label}
+                        onClick={copyEmail}
+                        aria-label={copied ? "已复制" : social.label}
                         className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/60 hover:bg-amber-500 hover:border-amber-500 hover:text-white transition-all duration-300"
                       >
                         {IconComponent && <IconComponent className="w-4 h-4" />}
-                      </a>
+                      </button>
                     );
-                  })}
-                </div>
-              </nav>
-            )}
+                  }
+                  return (
+                    <a
+                      key={social.label}
+                      href={social.href}
+                      target={social.href.startsWith("http") ? "_blank" : undefined}
+                      rel={social.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                      aria-label={social.label}
+                      className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/60 hover:bg-amber-500 hover:border-amber-500 hover:text-white transition-all duration-300"
+                    >
+                      {IconComponent && <IconComponent className="w-4 h-4" />}
+                    </a>
+                  );
+                })}
+                {/* RSS Feed */}
+                <a
+                  href="/rss.xml"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="RSS 订阅"
+                  className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white/60 hover:bg-amber-500 hover:border-amber-500 hover:text-white transition-all duration-300"
+                  title="RSS 订阅"
+                >
+                  <Rss className="w-4 h-4" />
+                </a>
+              </div>
+            </nav>
           </div>
 
           {/* Link Groups */}
@@ -165,6 +174,16 @@ export function Footer() {
                 </button>
               </form>
             )}
+            {/* RSS Link */}
+            <a
+              href="/rss.xml"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mt-4 text-sm text-amber-400 hover:text-amber-300 transition-colors"
+            >
+              <Rss className="w-4 h-4" />
+              或通过 RSS 订阅
+            </a>
           </div>
         </div>
       </div>

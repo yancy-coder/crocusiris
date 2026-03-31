@@ -1,0 +1,271 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - button "Yancy" [ref=e5]:
+          - img "Logo" [ref=e6]
+          - generic [ref=e7]:
+            - generic [ref=e8]: Yancy
+            - generic [ref=e9]: 探索技术与生活
+        - menubar [ref=e10]:
+          - menuitem "首页" [ref=e11]
+          - menuitem "博客" [ref=e12]
+          - menuitem "关于" [ref=e13]
+          - menuitem "联系" [ref=e14]:
+            - text: 联系
+            - img [ref=e15]
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - heading "搜索文章" [level=1] [ref=e20]
+          - generic [ref=e21]:
+            - textbox "输入关键词搜索..." [active] [ref=e22]: React
+            - button [ref=e23]:
+              - img [ref=e24]
+          - paragraph [ref=e27]: 找到 1 篇与 "React" 相关的文章
+        - generic [ref=e28]:
+          - link [ref=e31] [cursor=pointer]:
+            - /url: /blog/first-post
+            - article [ref=e32]:
+              - img "构建高性能 React 应用的最佳实践" [ref=e34]
+              - generic [ref=e35]:
+                - generic [ref=e36]:
+                  - generic [ref=e37]: 技术
+                  - generic [ref=e38]:
+                    - img [ref=e39]
+                    - text: 2026-03-28
+                - heading "构建高性能 React 应用的最佳实践" [level=2] [ref=e42]
+                - paragraph [ref=e43]: 深入探讨 React 性能优化的各种技巧，包括组件拆分、状态管理、渲染优化等核心概念，帮助你构建更流畅的用户体验。 为什么性能优化很重要 在现代 Web 应用中，性能直接影响用户体验和转化率。一个加载缓慢的应用会导致用户流失。 核心优化策略 1. 组件懒加载 - 使用 React.la...
+                - generic [ref=e44]:
+                  - generic [ref=e45]:
+                    - img [ref=e46]
+                    - text: React
+                  - generic [ref=e49]:
+                    - img [ref=e50]
+                    - text: 性能优化
+                  - generic [ref=e53]:
+                    - img [ref=e54]
+                    - text: 前端
+              - img [ref=e58]
+          - complementary [ref=e60]:
+            - complementary [ref=e62]:
+              - generic [ref=e63]:
+                - heading "搜索文章" [level=3] [ref=e64]:
+                  - img [ref=e65]
+                  - text: 搜索文章
+                - generic [ref=e68]:
+                  - textbox "输入关键词..." [ref=e69]
+                  - button [ref=e70]:
+                    - img [ref=e71]
+              - generic [ref=e74]:
+                - generic [ref=e75]:
+                  - generic [ref=e76]:
+                    - img [ref=e77]
+                    - generic [ref=e79]: 日历
+                  - generic [ref=e80]:
+                    - generic [ref=e81]: 17:48
+                    - generic [ref=e82]: 2026年03月31日 星期二
+                - generic [ref=e83]:
+                  - button [ref=e84]:
+                    - img [ref=e85]
+                  - generic [ref=e87]: 2026年 03月
+                  - button [ref=e88]:
+                    - img [ref=e89]
+                - generic [ref=e91]:
+                  - generic [ref=e92]: 日
+                  - generic [ref=e93]: 一
+                  - generic [ref=e94]: 二
+                  - generic [ref=e95]: 三
+                  - generic [ref=e96]: 四
+                  - generic [ref=e97]: 五
+                  - generic [ref=e98]: 六
+                - generic [ref=e99]:
+                  - button "23" [ref=e100]
+                  - button "24" [ref=e101]
+                  - button "25" [ref=e102]
+                  - button "26" [ref=e103]
+                  - button "27" [ref=e104]
+                  - button "28" [ref=e105]
+                  - button "1" [ref=e106]
+                  - button "2" [ref=e107]
+                  - button "3" [ref=e108]
+                  - button "4" [ref=e109]
+                  - button "5" [ref=e110]
+                  - button "6" [ref=e111]
+                  - button "7" [ref=e112]
+                  - button "8" [ref=e113]
+                  - button "9" [ref=e114]
+                  - button "10" [ref=e115]
+                  - button "11" [ref=e116]
+                  - button "12" [ref=e117]
+                  - button "13" [ref=e118]
+                  - button "14" [ref=e119]
+                  - button "15" [ref=e120]
+                  - button "16" [ref=e121]
+                  - button "17" [ref=e122]
+                  - button "18" [ref=e123]
+                  - button "19" [ref=e124]
+                  - button "20" [ref=e125]
+                  - button "21" [ref=e126]
+                  - button "22" [ref=e127]
+                  - button "23" [ref=e128]
+                  - button "24" [ref=e129]
+                  - button "25" [ref=e130]
+                  - button "26" [ref=e131]
+                  - button "27" [ref=e132]
+                  - button "28" [ref=e133]
+                  - button "29" [ref=e134]
+                  - button "30" [ref=e135]
+                  - button "31" [ref=e136]
+                  - button "1" [ref=e137]
+                  - button "2" [ref=e138]
+                  - button "3" [ref=e139]
+                  - button "4" [ref=e140]
+                  - button "5" [ref=e141]
+              - generic [ref=e142]:
+                - generic [ref=e143]:
+                  - img [ref=e274]
+                  - generic [ref=e277]: 武汉市
+                - generic [ref=e279]:
+                  - img [ref=e280]
+                  - generic [ref=e282]:
+                    - generic [ref=e283]: 17°
+                    - generic [ref=e284]: 多云
+                - generic [ref=e285]:
+                  - generic [ref=e286]:
+                    - img [ref=e287]
+                    - generic [ref=e290]:
+                      - generic [ref=e291]: 湿度
+                      - generic [ref=e292]: 65%
+                  - generic [ref=e293]:
+                    - img [ref=e294]
+                    - generic [ref=e298]:
+                      - generic [ref=e299]: 风力
+                      - generic [ref=e300]: 西北 6级
+                  - generic [ref=e301]:
+                    - img [ref=e302]
+                    - generic [ref=e305]:
+                      - generic [ref=e306]: 能见度
+                      - generic [ref=e307]: 24km
+                  - generic [ref=e308]:
+                    - img [ref=e309]
+                    - generic [ref=e311]:
+                      - generic [ref=e312]: AQI
+                      - generic [ref=e313]: 152 中度污染
+              - generic [ref=e146]:
+                - heading "标签云" [level=3] [ref=e147]:
+                  - img [ref=e148]
+                  - text: 标签云
+                - generic [ref=e151]:
+                  - link "Obsidian" [ref=e152] [cursor=pointer]:
+                    - /url: /?tag=Obsidian#blog
+                  - link "知识管理" [ref=e153] [cursor=pointer]:
+                    - /url: /?tag=%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86#blog
+                  - link "React" [ref=e154] [cursor=pointer]:
+                    - /url: /?tag=React#blog
+                  - link "性能优化" [ref=e155] [cursor=pointer]:
+                    - /url: /?tag=%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96#blog
+                  - link "前端" [ref=e156] [cursor=pointer]:
+                    - /url: /?tag=%E5%89%8D%E7%AB%AF#blog
+                  - link "TypeScript" [ref=e157] [cursor=pointer]:
+                    - /url: /?tag=TypeScript#blog
+                  - link "JavaScript" [ref=e158] [cursor=pointer]:
+                    - /url: /?tag=JavaScript#blog
+                  - link "旅行" [ref=e159] [cursor=pointer]:
+                    - /url: /?tag=%E6%97%85%E8%A1%8C#blog
+                  - link "摄影" [ref=e160] [cursor=pointer]:
+                    - /url: /?tag=%E6%91%84%E5%BD%B1#blog
+                  - link "随笔" [ref=e161] [cursor=pointer]:
+                    - /url: /?tag=%E9%9A%8F%E7%AC%94#blog
+              - generic [ref=e162]:
+                - heading "常用链接" [level=3] [ref=e163]:
+                  - img [ref=e164]
+                  - text: 常用链接
+                - generic [ref=e168]:
+                  - link "技术文档" [ref=e169] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e171]
+                    - generic [ref=e173]: 技术文档
+                  - link "开源项目" [ref=e174] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e176]
+                    - generic [ref=e179]: 开源项目
+                  - link "生活随笔" [ref=e180] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e182]
+                    - generic [ref=e184]: 生活随笔
+                  - link "灵感收藏" [ref=e185] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e187]
+                    - generic [ref=e190]: 灵感收藏
+              - generic [ref=e191]:
+                - generic [ref=e192]:
+                  - img "Yancy" [ref=e193]
+                  - generic [ref=e194]:
+                    - heading "Yancy" [level=3] [ref=e195]
+                    - paragraph [ref=e196]: 全栈开发者
+                - paragraph [ref=e197]: 热爱技术与设计，专注于构建优雅的用户体验。在这里分享我的技术心得、项目经验和生活感悟。
+    - contentinfo [ref=e198]:
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - generic [ref=e202]:
+            - img "Logo" [ref=e203]
+            - generic [ref=e204]:
+              - generic [ref=e205]: Yancy
+              - text: Blog
+          - paragraph [ref=e206]: 记录技术成长，分享生活感悟。一个全栈开发者的数字花园。
+          - navigation "Social media links" [ref=e207]:
+            - generic [ref=e208]:
+              - link "GitHub" [ref=e209] [cursor=pointer]:
+                - /url: https://github.com/yancy-coder
+                - img [ref=e210]
+              - button "Email" [ref=e213]:
+                - img [ref=e214]
+              - link "RSS 订阅" [ref=e217] [cursor=pointer]:
+                - /url: /rss.xml
+                - img [ref=e218]
+        - navigation "导航" [ref=e222]:
+          - heading "导航" [level=3] [ref=e223]
+          - list [ref=e224]:
+            - listitem [ref=e225]:
+              - button "首页" [ref=e226]
+            - listitem [ref=e227]:
+              - button "博客" [ref=e228]
+            - listitem [ref=e229]:
+              - button "关于" [ref=e230]
+        - navigation "分类" [ref=e231]:
+          - heading "分类" [level=3] [ref=e232]
+          - list [ref=e233]:
+            - listitem [ref=e234]:
+              - button "技术" [ref=e235]
+            - listitem [ref=e236]:
+              - button "生活" [ref=e237]
+            - listitem [ref=e238]:
+              - button "随笔" [ref=e239]
+        - generic [ref=e240]:
+          - heading "订阅更新" [level=3] [ref=e241]
+          - paragraph [ref=e242]: 订阅我的博客，获取最新文章推送
+          - generic [ref=e243]:
+            - generic [ref=e244]: 邮箱地址
+            - textbox "邮箱地址" [ref=e245]:
+              - /placeholder: 输入您的邮箱
+            - button "订阅" [ref=e246]
+          - link "或通过 RSS 订阅" [ref=e247] [cursor=pointer]:
+            - /url: /rss.xml
+            - img [ref=e248]
+            - text: 或通过 RSS 订阅
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - generic [ref=e255]: © 2026 Yancy's Blog. All rights reserved.
+          - generic [ref=e256]:
+            - text: "|"
+            - button "隐私政策" [ref=e257]
+          - generic [ref=e258]:
+            - text: "|"
+            - button "使用条款" [ref=e259]
+        - button "回到顶部" [ref=e260]:
+          - generic [ref=e261]: 回到顶部
+          - img [ref=e263]
+  - button "Open Next.js Dev Tools" [ref=e270] [cursor=pointer]:
+    - img [ref=e271]
+  - alert [ref=e314]

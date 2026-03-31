@@ -1,0 +1,199 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]: This XML file does not appear to have any style information associated with it. The document tree is shown below.
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - text: <rss
+      - generic [ref=e8]: xmlns:atom="http://www.w3.org/2005/Atom"
+      - generic [ref=e9]: version="2.0"
+      - text: ">"
+    - generic [ref=e11]:
+      - generic [ref=e14]: <channel>
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]: <title>
+          - text: Yancy's Blog
+          - generic [ref=e18]: </title>
+        - generic [ref=e19]:
+          - generic [ref=e20]: <link>
+          - text: https://yancy.blog
+          - generic [ref=e21]: </link>
+        - generic [ref=e22]:
+          - generic [ref=e23]: <description>
+          - text: 分享技术心得、项目经验和生活感悟
+          - generic [ref=e24]: </description>
+        - generic [ref=e25]:
+          - generic [ref=e26]: <language>
+          - text: zh-CN
+          - generic [ref=e27]: </language>
+        - generic [ref=e28]:
+          - generic [ref=e29]: <lastBuildDate>
+          - text: Tue, 31 Mar 2026 00:00:00 GMT
+          - generic [ref=e30]: </lastBuildDate>
+        - generic [ref=e32]:
+          - text: <atom:link
+          - generic [ref=e33]: href="https://yancy.blog/rss.xml"
+          - generic [ref=e34]: rel="self"
+          - generic [ref=e35]: type="application/rss+xml"
+          - text: />
+        - generic [ref=e36]:
+          - generic [ref=e39]: <item>
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - generic [ref=e42]: <title>
+              - text: Test Obsidian Git
+              - generic [ref=e43]: </title>
+            - generic [ref=e44]:
+              - generic [ref=e45]: <link>
+              - text: https://yancy.blog/blog/Test Obsidian Git
+              - generic [ref=e46]: </link>
+            - generic [ref=e47]:
+              - generic [ref=e48]: <guid>
+              - text: https://yancy.blog/blog/Test Obsidian Git
+              - generic [ref=e49]: </guid>
+            - generic [ref=e50]:
+              - generic [ref=e51]: <pubDate>
+              - text: Tue, 31 Mar 2026 00:00:00 GMT
+              - generic [ref=e52]: </pubDate>
+            - generic [ref=e53]:
+              - generic [ref=e54]: <description>
+              - text: 这是一个测试文件...
+              - generic [ref=e55]: </description>
+          - generic [ref=e57]: </item>
+        - generic [ref=e58]:
+          - generic [ref=e61]: <item>
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - generic [ref=e64]: <title>
+              - text: Obsidian 双链功能演示
+              - generic [ref=e65]: </title>
+            - generic [ref=e66]:
+              - generic [ref=e67]: <link>
+              - text: https://yancy.blog/blog/obsidian-features
+              - generic [ref=e68]: </link>
+            - generic [ref=e69]:
+              - generic [ref=e70]: <guid>
+              - text: https://yancy.blog/blog/obsidian-features
+              - generic [ref=e71]: </guid>
+            - generic [ref=e72]:
+              - generic [ref=e73]: <pubDate>
+              - text: Tue, 31 Mar 2026 00:00:00 GMT
+              - generic [ref=e74]: </pubDate>
+            - generic [ref=e75]:
+              - generic [ref=e76]: <description>
+              - text: Obsidian 最强大的功能之一就是双向链接。通过 first-post 这样的语法，你可以轻松链接到其他笔记。 链接示例 - 简单链接：second-post - 带自定义显示文本：mountain-trip|山间漫步笔记 - 另一个技术文章：TypeScript 高级类型...
+              - generic [ref=e77]: </description>
+            - generic [ref=e78]:
+              - generic [ref=e79]: <category>
+              - text: Obsidian
+              - generic [ref=e80]: </category>
+            - generic [ref=e81]:
+              - generic [ref=e82]: <category>
+              - text: 知识管理
+              - generic [ref=e83]: </category>
+          - generic [ref=e85]: </item>
+        - generic [ref=e86]:
+          - generic [ref=e89]: <item>
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - generic [ref=e92]: <title>
+              - text: 构建高性能 React 应用的最佳实践
+              - generic [ref=e93]: </title>
+            - generic [ref=e94]:
+              - generic [ref=e95]: <link>
+              - text: https://yancy.blog/blog/first-post
+              - generic [ref=e96]: </link>
+            - generic [ref=e97]:
+              - generic [ref=e98]: <guid>
+              - text: https://yancy.blog/blog/first-post
+              - generic [ref=e99]: </guid>
+            - generic [ref=e100]:
+              - generic [ref=e101]: <pubDate>
+              - text: Sat, 28 Mar 2026 00:00:00 GMT
+              - generic [ref=e102]: </pubDate>
+            - generic [ref=e103]:
+              - generic [ref=e104]: <description>
+              - text: 深入探讨 React 性能优化的各种技巧，包括组件拆分、状态管理、渲染优化等核心概念，帮助你构建更流畅的用户体验。 为什么性能优化很重要 在现代 Web 应用中，性能直接影响用户体验和转化率。一个加载缓慢的应用会导致用户流失。 核心优化策略 1. 组件懒加载 - 使用 React.la...
+              - generic [ref=e105]: </description>
+            - generic [ref=e106]:
+              - generic [ref=e107]: <category>
+              - text: React
+              - generic [ref=e108]: </category>
+            - generic [ref=e109]:
+              - generic [ref=e110]: <category>
+              - text: 性能优化
+              - generic [ref=e111]: </category>
+            - generic [ref=e112]:
+              - generic [ref=e113]: <category>
+              - text: 前端
+              - generic [ref=e114]: </category>
+          - generic [ref=e116]: </item>
+        - generic [ref=e117]:
+          - generic [ref=e120]: <item>
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - generic [ref=e123]: <title>
+              - text: TypeScript 高级类型体操指南
+              - generic [ref=e124]: </title>
+            - generic [ref=e125]:
+              - generic [ref=e126]: <link>
+              - text: https://yancy.blog/blog/second-post
+              - generic [ref=e127]: </link>
+            - generic [ref=e128]:
+              - generic [ref=e129]: <guid>
+              - text: https://yancy.blog/blog/second-post
+              - generic [ref=e130]: </guid>
+            - generic [ref=e131]:
+              - generic [ref=e132]: <pubDate>
+              - text: Wed, 25 Mar 2026 00:00:00 GMT
+              - generic [ref=e133]: </pubDate>
+            - generic [ref=e134]:
+              - generic [ref=e135]: <description>
+              - text: "从基础到进阶，全面掌握 TypeScript 的类型系统。学习如何使用泛型、条件类型、映射类型等高级特性。 泛型基础 泛型是 TypeScript 最强大的特性之一，它允许你编写可重用的代码。 typescript function identity<T>arg: T: T { ret..."
+              - generic [ref=e136]: </description>
+            - generic [ref=e137]:
+              - generic [ref=e138]: <category>
+              - text: TypeScript
+              - generic [ref=e139]: </category>
+            - generic [ref=e140]:
+              - generic [ref=e141]: <category>
+              - text: JavaScript
+              - generic [ref=e142]: </category>
+          - generic [ref=e144]: </item>
+        - generic [ref=e145]:
+          - generic [ref=e148]: <item>
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - generic [ref=e151]: <title>
+              - text: 山间漫步：寻找内心的宁静
+              - generic [ref=e152]: </title>
+            - generic [ref=e153]:
+              - generic [ref=e154]: <link>
+              - text: https://yancy.blog/blog/mountain-trip
+              - generic [ref=e155]: </link>
+            - generic [ref=e156]:
+              - generic [ref=e157]: <guid>
+              - text: https://yancy.blog/blog/mountain-trip
+              - generic [ref=e158]: </guid>
+            - generic [ref=e159]:
+              - generic [ref=e160]: <pubDate>
+              - text: Fri, 20 Mar 2026 00:00:00 GMT
+              - generic [ref=e161]: </pubDate>
+            - generic [ref=e162]:
+              - generic [ref=e163]: <description>
+              - text: 远离城市的喧嚣，走进大自然的怀抱。记录一次难忘的山间徒步之旅，分享沿途的风景与感悟。 出发前的准备 清晨五点，当城市还在沉睡，我已经背上行囊出发。山里的空气清新，鸟鸣声此起彼伏。 山顶的景色 经过三个小时的攀登，终于到达山顶。云海翻涌，日出将天边染成金色，一切都值得了。 这次旅行让我...
+              - generic [ref=e164]: </description>
+            - generic [ref=e165]:
+              - generic [ref=e166]: <category>
+              - text: 旅行
+              - generic [ref=e167]: </category>
+            - generic [ref=e168]:
+              - generic [ref=e169]: <category>
+              - text: 摄影
+              - generic [ref=e170]: </category>
+            - generic [ref=e171]:
+              - generic [ref=e172]: <category>
+              - text: 随笔
+              - generic [ref=e173]: </category>
+          - generic [ref=e175]: </item>
+      - generic [ref=e177]: </channel>
+    - generic [ref=e179]: </rss>

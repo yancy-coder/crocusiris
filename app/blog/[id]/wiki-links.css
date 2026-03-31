@@ -1,0 +1,19 @@
+/* Obsidian Wiki Links Styles */
+.wiki-link {
+  color: #f59e0b;
+  text-decoration: none;
+  border-bottom: 1px dashed #f59e0b;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.wiki-link:hover {
+  background: rgba(245, 158, 11, 0.1);
+  border-bottom-style: solid;
+}
+
+.wiki-link.missing {
+  color: #9ca3af;
+  border-bottom-color: #9ca3af;
+  cursor: not-allowed;
+}

@@ -1,0 +1,514 @@
+[    2468ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    2550ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[    2605ms] Error: ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./app/lib/posts.ts:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file://D:\vibe\crocusiris\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1189:59)
+    at DevBundlerService.getCompilationError (file://D:\vibe\crocusiris\node_modules\next\dist\server\lib\dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file://D:\vibe\crocusiris\node_modules\next\dist\server\dev\next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file://D:\vibe\crocusiris\node_modules\next\dist\server\dev\next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file://D:\vibe\crocusiris\node_modules\next\dist\server\base-server.js:1745:26)
+[    2598ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[    2603ms] [ERROR] ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[    2722ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[    2724ms] [ERROR] ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[    2768ms] [ERROR] ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[    2838ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[    5392ms] [ERROR] ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[    5460ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   12167ms] [ERROR] ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   12230ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   13759ms] [ERROR] ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   13833ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   14634ms] [ERROR] ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   14701ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   20452ms] [ERROR] ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   20516ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   27184ms] [ERROR] ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   27248ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   35501ms] [ERROR] ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   35565ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   42216ms] [ERROR] ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   42280ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   50412ms] [ERROR] ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   50502ms] [ERROR] ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   50567ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   57218ms] [ERROR] ./app/lib/posts.ts:1:1
+Module not found: Can't resolve 'fs'
+> 1 | import fs from "fs";
+    | ^^^^^^^^^^^^^^^^^^^^
+  2 | import path from "path";
+  3 | import matter from "gray-matter";
+  4 | import { remark } from "remark";
+
+Import traces:
+  Server Component:
+    ./app/lib/posts.ts
+    ./app/sections/BlogSectionServer.tsx
+    ./app/page.tsx
+
+  Client Component Browser:
+    ./app/lib/posts.ts [Client Component Browser]
+    ./app/components/BlogSidebar.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Client Component Browser]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/lib/posts.ts [Client Component SSR]
+    ./app/components/BlogSidebar.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Client Component SSR]
+    ./app/sections/BlogSectionClient.tsx [Server Component]
+    ./app/sections/BlogSectionServer.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   57284ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   62564ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   63070ms] [LOG] [Fast Refresh] done in 172ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   63194ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   63201ms] [LOG] [Fast Refresh] done in 110ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   63445ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/blog-default.jpg:0
+[   63521ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   63601ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   63732ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   63768ms] [LOG] [Fast Refresh] done in 137ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   68955ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   68957ms] [LOG] [Fast Refresh] done in 103ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  130925ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  131383ms] [LOG] [Fast Refresh] done in 294ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  149537ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  150123ms] [LOG] [Fast Refresh] done in 660ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  150260ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  150418ms] [LOG] [Fast Refresh] done in 259ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  150591ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  150592ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  150600ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/blog-default.jpg:0
+[  196096ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  196121ms] [LOG] [Fast Refresh] done in 58ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  196174ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/images/blog-default.jpg:0

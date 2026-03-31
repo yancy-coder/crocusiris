@@ -1,0 +1,336 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - button "Yancy" [ref=e5]:
+          - img "Logo" [ref=e6]
+          - generic [ref=e7]:
+            - generic [ref=e8]: Yancy
+            - generic [ref=e9]: 探索技术与生活
+        - menubar [ref=e10]:
+          - menuitem "首页" [ref=e11]
+          - menuitem "博客" [ref=e12]
+          - menuitem "关于" [ref=e13]
+          - menuitem "联系" [ref=e14]:
+            - text: 联系
+            - img [ref=e15]
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - img "Hero Background" [ref=e21]
+        - generic [ref=e23]:
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - text: 欢迎来到我的数字花园
+          - heading "Yancy's Blog" [level=1] [ref=e29]
+          - paragraph [ref=e30]: 记录技术成长，分享生活感悟，探索无限可能
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - img [ref=e33]
+              - generic [ref=e36]: 全栈开发
+            - generic [ref=e37]:
+              - img [ref=e38]
+              - generic [ref=e40]: 技术博客
+            - generic [ref=e41]:
+              - img [ref=e42]
+              - generic [ref=e44]: 生活随笔
+          - generic [ref=e45]:
+            - button "浏览文章" [ref=e46]:
+              - text: 浏览文章
+              - img [ref=e47]
+            - button "了解更多" [ref=e49]
+        - generic [ref=e53]: Scroll
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]: Latest Posts
+          - heading "博客文章" [level=2] [ref=e59]
+          - paragraph [ref=e60]: 分享技术心得、项目经验和生活感悟
+        - generic [ref=e61]:
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - button "全部" [ref=e65]
+              - button "随笔" [ref=e66]
+              - button "技术" [ref=e67]
+              - button "生活" [ref=e68]
+            - link [ref=e69] [cursor=pointer]:
+              - /url: /blog/first-post
+              - article [ref=e70]:
+                - generic [ref=e71]:
+                  - generic [ref=e72]:
+                    - img "构建高性能 React 应用的最佳实践" [ref=e73]
+                    - generic [ref=e75]: 精选
+                  - generic [ref=e76]:
+                    - generic [ref=e77]:
+                      - generic [ref=e78]:
+                        - img [ref=e79]
+                        - text: 2026-03-28
+                      - generic [ref=e82]: 1 分钟
+                    - heading "构建高性能 React 应用的最佳实践" [level=3] [ref=e83]
+                    - paragraph [ref=e84]: 深入探讨 React 性能优化的各种技巧，包括组件拆分、状态管理、渲染优化等核心概念，帮助你构建更流畅的用户体验。 为什么性能优化很重要 在现代 Web 应用中，性能直接影响用户体验和转化率。一个加载缓慢的应用会导致用户流失。 核心优化策略 1. 组件懒加载 - 使用 React.la...
+                    - generic [ref=e85]:
+                      - generic [ref=e86]:
+                        - img [ref=e87]
+                        - text: React
+                      - generic [ref=e90]:
+                        - img [ref=e91]
+                        - text: 性能优化
+                      - generic [ref=e94]:
+                        - img [ref=e95]
+                        - text: 前端
+                    - generic [ref=e98]:
+                      - text: 阅读更多
+                      - img [ref=e99]
+            - generic [ref=e101]:
+              - link [ref=e102] [cursor=pointer]:
+                - /url: /blog/Test Obsidian Git
+                - article [ref=e103]:
+                  - generic [ref=e104]:
+                    - img "Test Obsidian Git" [ref=e105]
+                    - generic [ref=e107]: 随笔
+                  - generic [ref=e108]:
+                    - generic [ref=e109]:
+                      - generic [ref=e110]: 2026-03-31
+                      - generic [ref=e111]: 1 分钟
+                    - heading "Test Obsidian Git" [level=3] [ref=e112]
+                    - paragraph [ref=e113]: 这是一个测试文件...
+              - link [ref=e114] [cursor=pointer]:
+                - /url: /blog/obsidian-features
+                - article [ref=e115]:
+                  - generic [ref=e116]:
+                    - img "Obsidian 双链功能演示" [ref=e117]
+                    - generic [ref=e119]: 技术
+                  - generic [ref=e120]:
+                    - generic [ref=e121]:
+                      - generic [ref=e122]: 2026-03-31
+                      - generic [ref=e123]: 1 分钟
+                    - heading "Obsidian 双链功能演示" [level=3] [ref=e124]
+                    - paragraph [ref=e125]: Obsidian 最强大的功能之一就是双向链接。通过 first-post 这样的语法，你可以轻松链接到其他笔记。 链接示例 - 简单链接：second-post - 带自定义显示文本：mountain-trip|山间漫步笔记 - 另一个技术文章：TypeScript 高级类型...
+                    - generic [ref=e126]:
+                      - generic [ref=e127]: Obsidian
+                      - generic [ref=e128]: 知识管理
+              - link [ref=e129] [cursor=pointer]:
+                - /url: /blog/second-post
+                - article [ref=e130]:
+                  - generic [ref=e131]:
+                    - img "TypeScript 高级类型体操指南" [ref=e132]
+                    - generic [ref=e134]: 技术
+                  - generic [ref=e135]:
+                    - generic [ref=e136]:
+                      - generic [ref=e137]: 2026-03-25
+                      - generic [ref=e138]: 1 分钟
+                    - heading "TypeScript 高级类型体操指南" [level=3] [ref=e139]
+                    - paragraph [ref=e140]: "从基础到进阶，全面掌握 TypeScript 的类型系统。学习如何使用泛型、条件类型、映射类型等高级特性。 泛型基础 泛型是 TypeScript 最强大的特性之一，它允许你编写可重用的代码。 typescript function identity<T>arg: T: T { ret..."
+                    - generic [ref=e141]:
+                      - generic [ref=e142]: TypeScript
+                      - generic [ref=e143]: JavaScript
+              - link [ref=e144] [cursor=pointer]:
+                - /url: /blog/mountain-trip
+                - article [ref=e145]:
+                  - generic [ref=e146]:
+                    - img "山间漫步：寻找内心的宁静" [ref=e147]
+                    - generic [ref=e149]: 生活
+                  - generic [ref=e150]:
+                    - generic [ref=e151]:
+                      - generic [ref=e152]: 2026-03-20
+                      - generic [ref=e153]: 1 分钟
+                    - heading "山间漫步：寻找内心的宁静" [level=3] [ref=e154]
+                    - paragraph [ref=e155]: 远离城市的喧嚣，走进大自然的怀抱。记录一次难忘的山间徒步之旅，分享沿途的风景与感悟。 出发前的准备 清晨五点，当城市还在沉睡，我已经背上行囊出发。山里的空气清新，鸟鸣声此起彼伏。 山顶的景色 经过三个小时的攀登，终于到达山顶。云海翻涌，日出将天边染成金色，一切都值得了。 这次旅行让我...
+                    - generic [ref=e156]:
+                      - generic [ref=e157]: 旅行
+                      - generic [ref=e158]: 摄影
+            - button "查看更多文章" [ref=e160]:
+              - text: 查看更多文章
+              - img [ref=e161]
+          - complementary [ref=e163]:
+            - complementary [ref=e165]:
+              - generic [ref=e166]:
+                - heading "搜索文章" [level=3] [ref=e167]:
+                  - img [ref=e168]
+                  - text: 搜索文章
+                - generic [ref=e171]:
+                  - textbox "输入关键词..." [ref=e172]
+                  - button [ref=e173]:
+                    - img [ref=e174]
+              - generic [ref=e177]:
+                - generic [ref=e178]:
+                  - generic [ref=e179]:
+                    - img [ref=e180]
+                    - generic [ref=e182]: 日历
+                  - generic [ref=e183]:
+                    - generic [ref=e184]: 17:48
+                    - generic [ref=e185]: 2026年03月31日 星期二
+                - generic [ref=e186]:
+                  - button [ref=e187]:
+                    - img [ref=e188]
+                  - generic [ref=e190]: 2026年 03月
+                  - button [ref=e191]:
+                    - img [ref=e192]
+                - generic [ref=e194]:
+                  - generic [ref=e195]: 日
+                  - generic [ref=e196]: 一
+                  - generic [ref=e197]: 二
+                  - generic [ref=e198]: 三
+                  - generic [ref=e199]: 四
+                  - generic [ref=e200]: 五
+                  - generic [ref=e201]: 六
+                - generic [ref=e202]:
+                  - button "23" [ref=e203]
+                  - button "24" [ref=e204]
+                  - button "25" [ref=e205]
+                  - button "26" [ref=e206]
+                  - button "27" [ref=e207]
+                  - button "28" [ref=e208]
+                  - button "1" [ref=e209]
+                  - button "2" [ref=e210]
+                  - button "3" [ref=e211]
+                  - button "4" [ref=e212]
+                  - button "5" [ref=e213]
+                  - button "6" [ref=e214]
+                  - button "7" [ref=e215]
+                  - button "8" [ref=e216]
+                  - button "9" [ref=e217]
+                  - button "10" [ref=e218]
+                  - button "11" [ref=e219]
+                  - button "12" [ref=e220]
+                  - button "13" [ref=e221]
+                  - button "14" [ref=e222]
+                  - button "15" [ref=e223]
+                  - button "16" [ref=e224]
+                  - button "17" [ref=e225]
+                  - button "18" [ref=e226]
+                  - button "19" [ref=e227]
+                  - button "20" [ref=e228]
+                  - button "21" [ref=e229]
+                  - button "22" [ref=e230]
+                  - button "23" [ref=e231]
+                  - button "24" [ref=e232]
+                  - button "25" [ref=e233]
+                  - button "26" [ref=e234]
+                  - button "27" [ref=e235]
+                  - button "28" [ref=e236]
+                  - button "29" [ref=e237]
+                  - button "30" [ref=e238]
+                  - button "31" [ref=e239]
+                  - button "1" [ref=e240]
+                  - button "2" [ref=e241]
+                  - button "3" [ref=e242]
+                  - button "4" [ref=e243]
+                  - button "5" [ref=e244]
+              - img [ref=e247]
+              - generic [ref=e249]:
+                - heading "标签云" [level=3] [ref=e250]:
+                  - img [ref=e251]
+                  - text: 标签云
+                - generic [ref=e254]:
+                  - link "Obsidian" [ref=e255] [cursor=pointer]:
+                    - /url: /?tag=Obsidian#blog
+                  - link "知识管理" [ref=e256] [cursor=pointer]:
+                    - /url: /?tag=%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86#blog
+                  - link "React" [ref=e257] [cursor=pointer]:
+                    - /url: /?tag=React#blog
+                  - link "性能优化" [ref=e258] [cursor=pointer]:
+                    - /url: /?tag=%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96#blog
+                  - link "前端" [ref=e259] [cursor=pointer]:
+                    - /url: /?tag=%E5%89%8D%E7%AB%AF#blog
+                  - link "TypeScript" [ref=e260] [cursor=pointer]:
+                    - /url: /?tag=TypeScript#blog
+                  - link "JavaScript" [ref=e261] [cursor=pointer]:
+                    - /url: /?tag=JavaScript#blog
+                  - link "旅行" [ref=e262] [cursor=pointer]:
+                    - /url: /?tag=%E6%97%85%E8%A1%8C#blog
+                  - link "摄影" [ref=e263] [cursor=pointer]:
+                    - /url: /?tag=%E6%91%84%E5%BD%B1#blog
+                  - link "随笔" [ref=e264] [cursor=pointer]:
+                    - /url: /?tag=%E9%9A%8F%E7%AC%94#blog
+              - generic [ref=e265]:
+                - heading "常用链接" [level=3] [ref=e266]:
+                  - img [ref=e267]
+                  - text: 常用链接
+                - generic [ref=e271]:
+                  - link "技术文档" [ref=e272] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e274]
+                    - generic [ref=e276]: 技术文档
+                  - link "开源项目" [ref=e277] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e279]
+                    - generic [ref=e282]: 开源项目
+                  - link "生活随笔" [ref=e283] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e285]
+                    - generic [ref=e287]: 生活随笔
+                  - link "灵感收藏" [ref=e288] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e290]
+                    - generic [ref=e293]: 灵感收藏
+              - generic [ref=e294]:
+                - generic [ref=e295]:
+                  - img "Yancy" [ref=e296]
+                  - generic [ref=e297]:
+                    - heading "Yancy" [level=3] [ref=e298]
+                    - paragraph [ref=e299]: 全栈开发者
+                - paragraph [ref=e300]: 热爱技术与设计，专注于构建优雅的用户体验。在这里分享我的技术心得、项目经验和生活感悟。
+    - contentinfo [ref=e301]:
+      - generic [ref=e303]:
+        - generic [ref=e304]:
+          - generic [ref=e305]:
+            - img "Logo" [ref=e306]
+            - generic [ref=e307]:
+              - generic [ref=e308]: Yancy
+              - text: Blog
+          - paragraph [ref=e309]: 记录技术成长，分享生活感悟。一个全栈开发者的数字花园。
+          - navigation "Social media links" [ref=e310]:
+            - generic [ref=e311]:
+              - link "GitHub" [ref=e312] [cursor=pointer]:
+                - /url: https://github.com/yancy-coder
+                - img [ref=e313]
+              - button "Email" [ref=e316]:
+                - img [ref=e317]
+              - link "RSS 订阅" [ref=e320] [cursor=pointer]:
+                - /url: /rss.xml
+                - img [ref=e321]
+        - navigation "导航" [ref=e325]:
+          - heading "导航" [level=3] [ref=e326]
+          - list [ref=e327]:
+            - listitem [ref=e328]:
+              - button "首页" [ref=e329]
+            - listitem [ref=e330]:
+              - button "博客" [ref=e331]
+            - listitem [ref=e332]:
+              - button "关于" [ref=e333]
+        - navigation "分类" [ref=e334]:
+          - heading "分类" [level=3] [ref=e335]
+          - list [ref=e336]:
+            - listitem [ref=e337]:
+              - button "技术" [ref=e338]
+            - listitem [ref=e339]:
+              - button "生活" [ref=e340]
+            - listitem [ref=e341]:
+              - button "随笔" [ref=e342]
+        - generic [ref=e343]:
+          - heading "订阅更新" [level=3] [ref=e344]
+          - paragraph [ref=e345]: 订阅我的博客，获取最新文章推送
+          - generic [ref=e346]:
+            - generic [ref=e347]: 邮箱地址
+            - textbox "邮箱地址" [ref=e348]:
+              - /placeholder: 输入您的邮箱
+            - button "订阅" [ref=e349]
+          - link "或通过 RSS 订阅" [ref=e350] [cursor=pointer]:
+            - /url: /rss.xml
+            - img [ref=e351]
+            - text: 或通过 RSS 订阅
+      - generic [ref=e356]:
+        - generic [ref=e357]:
+          - generic [ref=e358]: © 2026 Yancy's Blog. All rights reserved.
+          - generic [ref=e359]:
+            - text: "|"
+            - button "隐私政策" [ref=e360]
+          - generic [ref=e361]:
+            - text: "|"
+            - button "使用条款" [ref=e362]
+        - button "回到顶部" [ref=e363]:
+          - generic [ref=e364]: 回到顶部
+          - img [ref=e366]
+    - button "回到顶部":
+      - img
+  - button "Open Next.js Dev Tools" [ref=e373] [cursor=pointer]:
+    - img [ref=e374]
