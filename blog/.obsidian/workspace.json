@@ -8,48 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "25c6c1b6656069c1",
+            "id": "f6131a00ab82ebc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "欢迎.md",
+                "file": "second-post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "欢迎"
-            }
-          },
-          {
-            "id": "f6131a00ab82ebc7",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "blog/Test Obsidian Git.md",
-                "bFile": "blog/Test Obsidian Git.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Test Obsidian Git  (Working Tree)"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "4ecc7b000df123ef",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e8275092f1310807",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "title": "second-post"
             }
           }
         ]
@@ -125,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "second-post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "second-post 的反向链接列表"
             }
           },
           {
@@ -221,13 +191,19 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f6131a00ab82ebc7",
+  "active": "dfd6f68f23d09cfc",
   "lastOpenFiles": [
-    "Test Obsidian Git.md",
+    "first-post.md",
     "欢迎.md",
+    "创建链接.md",
+    "Test Obsidian Git.md",
+    "mountain-trip.md",
+    "second-post.md",
     "未命名.base"
   ]
 }

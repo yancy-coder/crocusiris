@@ -3,68 +3,44 @@
 import { useState } from "react";
 import { ArrowRight, Clock, Tag, ChevronRight } from "lucide-react";
 import { BlogSidebar } from "../components/BlogSidebar";
+import { Post } from "../lib/posts";
 
-interface BlogPost {
-  id: number;
-  title: string;
-  excerpt: string;
-  image: string;
-  date: string;
-  readTime: string;
-  category: string;
-  tags: string[];
-  featured?: boolean;
+interface BlogSectionClientProps {
+  posts: Post[];
+  categories: string[];
 }
 
-const blogPosts: BlogPost[] = [
-  {
-    id: 1,
-    title: "构建高性能 React 应用的最佳实践",
-    excerpt:
-      "深入探讨 React 性能优化的各种技巧，包括组件拆分、状态管理、渲染优化等核心概念，帮助你构建更流畅的用户体验。",
-    image: "/images/blog-1.jpg",
-    date: "2026-03-28",
-    readTime: "8 分钟",
-    category: "技术",
-    tags: ["React", "性能优化", "前端"],
-    featured: true,
-  },
-  {
-    id: 2,
-    title: "TypeScript 高级类型体操指南",
-    excerpt:
-      "从基础到进阶，全面掌握 TypeScript 的类型系统。学习如何使用泛型、条件类型、映射类型等高级特性。",
-    image: "/images/blog-2.jpg",
-    date: "2026-03-25",
-    readTime: "12 分钟",
-    category: "技术",
-    tags: ["TypeScript", "JavaScript"],
-  },
-  {
-    id: 3,
-    title: "山间漫步：寻找内心的宁静",
-    excerpt:
-      "远离城市的喧嚣，走进大自然的怀抱。记录一次难忘的山间徒步之旅，分享沿途的风景与感悟。",
-    image: "/images/blog-3.jpg",
-    date: "2026-03-20",
-    readTime: "5 分钟",
-    category: "生活",
-    tags: ["旅行", "摄影", "随笔"],
-  },
-];
-
-const categories = ["全部", "技术", "生活", "设计", "随笔"];
-
-export function BlogSection() {
+export function BlogSectionClient({ posts, categories }: BlogSectionClientProps) {
   const [activeCategory, setActiveCategory] = useState("全部");
 
   const filteredPosts =
     activeCategory === "全部"
-      ? blogPosts
-      : blogPosts.filter((post) => post.category === activeCategory);
+      ? posts
+      : posts.filter((post) => post.category === activeCategory);
 
-  const featuredPost = blogPosts.find((post) => post.featured);
+  const featuredPost = posts.find((post) => post.featured);
   const regularPosts = filteredPosts.filter((post) => post.id !== featuredPost?.id);
+
+  // 如果没有文章，显示占位内容
+  if (posts.length === 0) {
+    return (
+      <section id="blog" className="py-20 lg:py-32 bg-[#141414]">
+        <div className="container-custom">
+          <div className="text-center mb-12">
+            <span className="text-amber-400 text-sm tracking-widest uppercase mb-4 block">
+              Latest Posts
+            </span>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-white mb-6">
+              博客文章
+            </h2>
+            <p className="text-white/60 max-w-2xl mx-auto">
+              暂无文章，请在 blog 目录下添加 Markdown 文件
+            </p>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section id="blog" className="py-20 lg:py-32 bg-[#141414]">
@@ -197,12 +173,14 @@ export function BlogSection() {
             </div>
 
             {/* Load More Button */}
-            <div className="text-center pt-8">
-              <button className="inline-flex items-center gap-2 px-8 py-3 bg-white/5 hover:bg-amber-500 text-white hover:text-white rounded-full transition-all duration-300 group">
-                查看更多文章
-                <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-              </button>
-            </div>
+            {regularPosts.length > 0 && (
+              <div className="text-center pt-8">
+                <button className="inline-flex items-center gap-2 px-8 py-3 bg-white/5 hover:bg-amber-500 text-white hover:text-white rounded-full transition-all duration-300 group">
+                  查看更多文章
+                  <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                </button>
+              </div>
+            )}
           </div>
 
           {/* Sidebar - Right Side */}
