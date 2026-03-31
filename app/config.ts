@@ -64,7 +64,7 @@ export interface PreloaderConfig {
 export const preloaderConfig: PreloaderConfig = {
   brandName: "Yancy",
   brandSubname: "Blog",
-  yearText: "Est. 2024",
+  yearText: "Est. 2026",
 };
 
 // -----------------------------------------------------------------------------
@@ -142,7 +142,7 @@ export const footerConfig: FooterConfig = {
       ],
     },
   ],
-  copyrightText: "© 2024 Yancy's Blog. All rights reserved.",
+  copyrightText: "© 2026 Yancy's Blog. All rights reserved.",
   legalLinks: ["隐私政策", "使用条款"],
   backToTopText: "回到顶部",
 };
