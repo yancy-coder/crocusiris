@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "second-post.md",
+                "file": "质性研究三步编码的可行性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "second-post"
+              "title": "质性研究三步编码的可行性"
             }
           }
         ]
@@ -192,18 +192,20 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3580c4f76b6067af",
+  "active": "f6131a00ab82ebc7",
   "lastOpenFiles": [
-    "obsidian-features.md",
     "first-post.md",
+    "质性研究三步编码的可行性.md",
+    "mountain-trip.md",
+    "obsidian-features.md",
+    "second-post.md",
+    "Test Obsidian Git.md",
     "欢迎.md",
     "创建链接.md",
-    "Test Obsidian Git.md",
-    "mountain-trip.md",
-    "second-post.md",
     "未命名.base"
   ]
 }
