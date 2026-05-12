@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"aliases\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9f39e3e009951755",
@@ -196,10 +197,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f6131a00ab82ebc7",
+  "active": "dfd6f68f23d09cfc",
   "lastOpenFiles": [
-    "first-post.md",
+    "().md",
     "质性研究三步编码的可行性.md",
+    "2304.07366v4.zh-CN.mono.pdf.md",
+    "Pasted image 20260512122951.png",
+    "Pasted image 20260512122936.png",
+    "Pasted image 20260512122911.png",
+    "未命名.md",
+    "first-post.md",
     "mountain-trip.md",
     "obsidian-features.md",
     "second-post.md",
